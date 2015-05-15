@@ -1,0 +1,10 @@
+.entry {
+	.divider {
+		border-bottom: 1px solid $jet;
+	}
+
+	.thumb {
+		@include thumb;
+		max-height: 400px;
+	}
+}

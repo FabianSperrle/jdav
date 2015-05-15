@@ -2,3 +2,9 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
+bower_components
+.idea
+
+config.codekit
+.vagrant
+starterkit.iml

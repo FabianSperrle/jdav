@@ -1,22 +1,13 @@
 <nav role="navigation">
 
-  <ul class="menu cf">
-    <?php foreach($pages->visible() as $p): ?>
-    <li>
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-
-      <?php if($p->hasVisibleChildren()): ?>
-      <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
-        <li>
-          <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-        </li>
-        <?php endforeach ?>
-      </ul>
-      <?php endif ?>
-
-    </li>
-    <?php endforeach ?>
-  </ul>
-
+    <div class="row navigation">
+      <div class="small-7 large-4 columns">
+        <?php foreach($site->pages()->visible() as $page): ?>
+            <a href="<?= $page->url() ?>" alt="<?= $page->title() ?>"><div class="panel"><?= $page->title() ?></div></a>
+        <?php endforeach; ?>
+      </div>
+      <div class="small-5 large-3 large-offset-5 columns">
+        <img class="right" src="http://placehold.it/200x69/JDAV" />
+      </div>
+    </div>
 </nav>

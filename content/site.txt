@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: JDAV Konstanz
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Fabian Sperrle
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Internetauftritt der **JDAV Konstanz**.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: DAV,JDAV,Klettern,Konstanz,Kinderklettern,Kinder
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 20015-(date: Year) (link: github.com/FabianSperrle text: Fabian Sperrle)
