@@ -15,9 +15,15 @@
 <?php endif; ?>
 
 <div class="row">
-    <div class="small-12 columns">
+    <div class="small-9 columns">
         <h2><?= $page->title() ?></h2>
         <?= $page->beschreibung()->kirbytext() ?>
+    </div>
+    <div class="small-3 columns">
+        <h5>Eindrücke</h5>
+        <?php foreach ($page->images() as $image): ?>
+            <img class="th" src="<?= thumb($image, array('width' => 300))->url() ?>" />
+        <?php endforeach ?>
     </div>
 </div>
 <div class="row">

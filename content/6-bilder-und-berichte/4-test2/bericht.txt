@@ -1,0 +1,13 @@
+Title: test2
+
+----
+
+Text: yay
+
+----
+
+Year: 2014
+
+----
+
+Titelbild: bild-13.jpg

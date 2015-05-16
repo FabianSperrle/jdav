@@ -6,3 +6,6 @@ fields:
   title:
     label: Titel
     type: text
+  ueberschrift:
+    label: Überschrift
+    type: text

@@ -6188,3 +6188,12 @@ body {
   max-height: 400px; }
   .entry .thumb:hover, .entry .thumb:focus {
     box-shadow: 0 0 6px 1px rgba(53, 153, 71, 0.5); }
+
+.entry-gallery {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 4px; }
+
+.entry-gallery img {
+  vertical-align: bottom;
+  opacity: 0; }

@@ -1,4 +1,4 @@
-Title: Winterlager 2014
+Title: Winterlager 2015
 
 ----
 
@@ -44,54 +44,6 @@ Teilnehmer:
   email2: fabian.sperrle@gmail.com
   veggie: nein
   gruppe: Kletteräffchen
-- 
-  vorname:
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname:
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname:
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
 
 ----
 
@@ -113,3 +65,15 @@ Anmeldung-ende: 2015-05-24
 ----
 
 Plaetze: 30
+
+----
+
+Status: ja
+
+----
+
+Start: 2015-12-21
+
+----
+
+Ende: 2016-01-03

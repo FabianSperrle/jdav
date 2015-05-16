@@ -9,6 +9,12 @@ fields:
   beschreibung:
     label: Beschreibung
     type: markdown
+  start:
+    label: Startdatum
+    type: date
+  ende:
+    label: Enddatum
+    type: date
   anmeldung_start:
     label: Start der Anmeldung
     type: date
@@ -93,3 +99,11 @@ fields:
           fetch: visibleChildren
           value: '{{name}}'
           text: '{{name}}'
+  status:
+    type: select
+    label: Status
+    options:
+      ja: findet statt
+      nein: abgesagt
+      vorbei: vorbei
+    default: ja

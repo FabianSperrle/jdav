@@ -3,7 +3,7 @@ $posts = $page->children()->visible()->flip()->filterBy('date', '<=', time())->p
 $pagination = $posts->pagination();
 foreach ($posts as $post): ?>
     <div class="row entry">
-        <div class="small-8 columns">
+        <div class="small-9 columns">
             <div class="row">
                 <?php if($post->images()->count() > 0): ?>
                     <div class="small-8 columns">

@@ -2,6 +2,11 @@
 
 title: Ausflugsbericht
 pages: false
+files:
+  sortable: true
+  fields:
+    label: Titel
+    type: text
 fields:
   title:
     label: Title
