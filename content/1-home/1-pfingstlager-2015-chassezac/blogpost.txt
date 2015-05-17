@@ -17,5 +17,5 @@ Author: admin
 Links: 
 
 - 
-  page: kletteraeffchen
+  url: http://google.com
   text: Yay

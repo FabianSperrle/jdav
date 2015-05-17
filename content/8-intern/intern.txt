@@ -1,0 +1,8 @@
+Title: Interner Bereich
+
+----
+
+Text: 
+
+Du musst ich [einloggen](http://jdav/panel), um den internen Bereich besuchen zu können!
+Komme wieder hierher zurück, wenn Du angemeldet bist...

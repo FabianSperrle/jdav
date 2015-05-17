@@ -44,6 +44,102 @@ Teilnehmer:
   email2: fabian.sperrle@gmail.com
   veggie: nein
   gruppe: Kletteräffchen
+- 
+  vorname: lkj
+  nachname:
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  email2:
+  veggie: nein
+  gruppe:
+  status: angemeldet
+- 
+  vorname: lkj
+  nachname:
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  email2:
+  veggie: nein
+  gruppe:
+  status: angemeldet
+- 
+  vorname: test
+  nachname:
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  email2:
+  veggie: nein
+  gruppe:
+  status: angemeldet
+- 
+  vorname: test
+  nachname:
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  email2:
+  veggie: nein
+  gruppe:
+  status: angemeldet
+- 
+  vorname: test
+  nachname:
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  email2:
+  veggie: nein
+  gruppe:
+  status: angemeldet
+- 
+  vorname: test
+  nachname:
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  email2:
+  veggie: nein
+  gruppe:
+  status: angemeldet
 
 ----
 

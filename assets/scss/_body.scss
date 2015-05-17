@@ -1,8 +1,22 @@
-body {
-	width: 97vw;
-	margin: 0 auto;
+html {
+  min-height: 100%;
+  height: auto;
+}
 
-	& > .row {
-		box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
-	}
+body {
+  width: 97vw;
+  margin: 0 auto;
+  height: auto;
+  background-image: url('/assets/img/footer.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  & > .row {
+    //box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+    //border-left: 1px solid $black;
+    //border-right: 1px solid $black;
+  }
+}
+
+.row {
+  background: rgba($white, 0.8);
 }

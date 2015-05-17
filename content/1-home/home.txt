@@ -2,4 +2,4 @@ Title: Herzlich Willkommen
 
 ----
 
-Text: **Herzlich willkommen auf der Homepage der Jugend des Deutschen Alpenvereins Sektion Konstanz.** Wenn du noch nie etwas von der JDAV gehört hast, schau doch mal auf unsere Informationsseite. Viel Spaß beim Stöbern. Du willst nicht immer die gesamte Seite nach Neuem absuchen? Dann schau direkt hier unten was es aktulles gibt!
+Text: **Herzlich willkommen auf der Homepage der Jugend des Deutschen Alpenvereins Sektion Konstanz.** Wenn du noch nie etwas von der JDAV gehört hast, schau doch mal auf unsere (link: informationen text: Informationsseite). Viel Spaß beim Stöbern. Du willst nicht immer die gesamte Seite nach Neuem absuchen? Dann schau direkt hier unten was es aktulles gibt!

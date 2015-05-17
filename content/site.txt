@@ -14,4 +14,4 @@ Keywords: DAV,JDAV,Klettern,Konstanz,Kinderklettern,Kinder
 
 ----
 
-Copyright: © 20015-(date: Year) (link: github.com/FabianSperrle text: Fabian Sperrle)
+Copyright: © (date: Year) (link: github.com/FabianSperrle text: Fabian Sperrle)

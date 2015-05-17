@@ -2,6 +2,15 @@
 
 title: Blogpost
 pages: false
+files:
+  sortable: true
+  fields:
+    caption:
+      label: Beschreibung
+      type: text
+    foto:
+      label: Fotograf / Copyright
+      type: text
 fields:
   title:
     label: Title
@@ -10,16 +19,21 @@ fields:
     label: Text
     type:  textarea
     size:  large
+  info:
+    label: Bilder
+    type: info
+    text: >
+      Auf der linken Seite kannst du Bilder hochladen. Bitte stelle sicher, dass für jeden Artikel **mindestens ein** Foto existiert.
+      Die Fotos können per drag and drop sortiert werden. Das erste Bild sollte im **Querformat** sein, um unschöne Beschnitt-Effekte zu vermeiden.
   links:
     label: Links
     type: structure
     entry: >
-      {{text}} ({{page}})
+      {{text}} --> ({{url}})
     fields:
-      page:
-        label: Seite
-        type: select
-        options: pages
+      url:
+        label: URL
+        type: text
       text:
         label: Linktext
         type: text

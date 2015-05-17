@@ -20,9 +20,8 @@
         <?= $page->beschreibung()->kirbytext() ?>
     </div>
     <div class="small-3 columns">
-        <h5>Eindrücke</h5>
         <?php foreach ($page->images() as $image): ?>
-            <img class="th" src="<?= thumb($image, array('width' => 300))->url() ?>" />
+            <img class="th" src="<?= thumb($image, array('width' => 300))->url() ?>"/>
         <?php endforeach ?>
     </div>
 </div>
@@ -31,11 +30,11 @@
         <hr>
     </div>
 </div>
-<?php if(true): ?>
+<?php if (true): ?>
     <div class="row">
         <div class="small-12 columns">
             <?php if (strtotime((string)$page->anmeldung_start()) < time()): ?>
-                <form method="post">
+                <form method="post" data-abide id="myForm">
                     <div class="row">
                         <div class="small-9 columns">
                             <div class="row">
@@ -43,7 +42,9 @@
                                     <label for="vorname" class="right inline">Vorname</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="vorname" name="vorname" placeholder="Vorname"/>
+                                    <input type="text" id="vorname" name="vorname" placeholder="Vorname" required
+                                           pattern="names"/>
+                                    <small class="error">Bitte gib deinen Vornamen ein!</small>
                                 </div>
                             </div>
 
@@ -52,7 +53,9 @@
                                     <label for="name" class="right inline">Name</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="name" name="name" placeholder="Name"/>
+                                    <input type="text" id="name" name="name" placeholder="Name" required
+                                           pattern="names"/>
+                                    <small class="error">Bitte gib deinen Nachnamen ein!</small>
                                 </div>
                             </div>
 
@@ -73,10 +76,14 @@
                                     <label for="strasse" class="right inline">Adresse</label>
                                 </div>
                                 <div class="small-7 columns">
-                                    <input type="text" id="strasse" name="strasse" placeholder="Straße"/>
+                                    <input type="text" id="strasse" name="strasse" placeholder="Straße" required
+                                           pattern="names"/>
+                                    <small class="error">Bitte gib deine Straße ein!</small>
                                 </div>
                                 <div class="small-2 columns">
-                                    <input type="text" id="hausnummer" name="hausnummer" placeholder="Hausnummer"/>
+                                    <input type="text" id="hausnummer" name="hausnummer" placeholder="Hausnummer"
+                                           required/>
+                                    <small class="error">Bitte gib deine Hausnummer ein!</small>
                                 </div>
                             </div>
 
@@ -85,10 +92,13 @@
                                     <label for="plz" class="right inline">Wohnort</label>
                                 </div>
                                 <div class="small-2 columns">
-                                    <input type="text" id="plz" name="plz" placeholder="PLZ"/>
+                                    <input type="text" id="plz" name="plz" placeholder="PLZ" required pattern="\d{5}"/>
+                                    <small class="error">Bite gib eine PLZ mit fünf Ziffern ein!</small>
                                 </div>
                                 <div class="small-7 columns">
-                                    <input type="text" id="ort" name="ort" placeholder="Wohnort"/>
+                                    <input type="text" id="ort" name="ort" placeholder="Wohnort" required
+                                           pattern="names"/>
+                                    <small class="error">Bitte gib deinen Wohnort ein!</small>
                                 </div>
                             </div>
 
@@ -97,7 +107,8 @@
                                     <label for="tel" class="right inline">Telefon</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="tel" name="tel" placeholder="Telefon"/>
+                                    <input type="text" id="tel" name="tel" placeholder="Telefon" required/>
+                                    <small class="error">Bitte gib deine Telefonnummer ein!</small>
                                 </div>
                             </div>
 
@@ -106,7 +117,8 @@
                                     <label for="handy" class="right inline">Handy der Eltern</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="handy" name="handy" placeholder="Für Notfälle"/>
+                                    <input type="text" id="handy" name="handy" placeholder="Für Notfälle" required/>
+                                    <small class="error">Bitte gib eine Notfallnummer ein!</small>
                                 </div>
                             </div>
 
@@ -115,17 +127,20 @@
                                     <label for="geb" class="right inline">Geburtsdatum</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="geb" name="geb" placeholder="TT.MM.JJJJ"/>
+                                    <input type="text" id="geb" name="geb" placeholder="TT.MM.JJJJ" required
+                                           pattern="\d{2}\.\d{2}\.\d{4}"/>
+                                    <small class="error">Bitte gib dein Geburtsdatum im Format TT.MM.JJJJ ein!</small>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="small-3 columns">
-                                    <label for="email" class="right inline error">Email-Adresse</label>
+                                    <label for="email" class="right inline">Email-Adresse</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="email" name="email" class="email" placeholder="addr@host.de"/>
-                                    <small class="error">Nononono</small>
+                                    <input type="text" id="email" name="email" class="email"
+                                           placeholder="addr@host.de" required pattern="email"/>
+                                    <small class="error">Bitte gib ein gültige Email-Adresse ein!</small>
                                 </div>
                             </div>
 
@@ -134,7 +149,9 @@
                                     <label for="email2" class="right inline">Email-Adresse (wdh.)</label>
                                 </div>
                                 <div class="small-9 columns">
-                                    <input type="text" id="email2" name="email2" placeholder="addr@host.de"/>
+                                    <input type="text" id="email2" name="email2" placeholder="addr@host.de" required
+                                           pattern="email" data-equalTo="email"/>
+                                    <small class="error">Bitte gib ein gültige Email-Adresse ein, die mit der oberen übereinstimmt!</small>
                                 </div>
                             </div>
 
@@ -172,6 +189,8 @@
                         </div>
                     </div>
                 </form>
+
+
             <?php else: ?>
                 Die Anmeldung ist im Moment nicht freigeschaltet.
             <?php endif; ?>

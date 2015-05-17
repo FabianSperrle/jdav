@@ -1,29 +1,36 @@
 .row.navigation {
-	background: url('http://placehold.it/1000x314');
-	background-size: cover;
-	height: 314px;
-	margin-top: 20px;
+  background-size: cover;
+  height: 314px;
+  margin-top: 20px;
 
-	& > div {
-		margin-top: 15px;
-	}
+  & > div {
+    margin-top: 15px;
+  }
 
-	.panel {
-		border: 0;
-		background: rgba($oil, 0.4);
-		padding: .15rem;
-		padding-left: .8rem;
-		margin-bottom: .15rem;
-		transition: background 0.1s ease-in-out;
-		//color: $black;
+  .panel {
+    border: 0;
+    background: rgba($jumbo, 0.7);
+    padding: .15rem;
+    padding-left: .8rem;
+    margin-bottom: .15rem;
+    transition: background 0.1s ease-in-out;
+    color: $black;
 
-		&.active, &:hover {
-			background: $white;
-			color: $jet;
-		}
+    &.active, &:hover {
+      background: $gainsboro;
+      color: $jet;
+    }
 
-        a {
-            color: $oil;
-        }
-	}
+    a {
+      color: $oil;
+    }
+  }
+}
+
+nav {
+  margin-bottom: 1rem;
+
+  .row {
+    background: none;
+  }
 }

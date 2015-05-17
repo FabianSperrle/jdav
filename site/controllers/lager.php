@@ -27,11 +27,12 @@ return function (Site $site, $pages, Page $page) {
         $neu['email2'] = get('email2');
         $neu['veggie'] = get('veggie');
         $neu['gruppe'] = get('gruppe');
-
         if (count($page->teilnehmer()->yaml()) > $page->plaetze()->int())
             $neu['status'] = "liste";
         else
             $neu['status'] = "angemeldet";
+
+
 
         // No errors, update the page
         if (empty($errors)) {
