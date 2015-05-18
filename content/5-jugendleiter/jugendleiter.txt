@@ -7,9 +7,11 @@ Jugendleiter:
 - 
   name: fabian
   gruppe: Kletteräffchen
+  funktion: Webdesign
 - 
   name: maxi
   gruppe: Kletterviren
+  funktion: Jugendreferent
 
 ----
 

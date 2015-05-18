@@ -6,7 +6,7 @@ Beschreibung: oh la la
 
 ----
 
-Start: 2015-05-25
+Start: 2015-05-19
 
 ----
 
@@ -18,7 +18,7 @@ Anmeldung-start: 2015-05-11
 
 ----
 
-Anmeldung-ende: 2015-05-16
+Anmeldung-ende: 
 
 ----
 

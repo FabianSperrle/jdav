@@ -6,12 +6,15 @@ fields:
   title:
     label: Titel
     type: text
+    required: true
   beschreibung:
     label: Beschreibung
     type: markdown
+    required: true
   start:
     label: Startdatum
     type: date
+    required: true
   ende:
     label: Enddatum
     type: date

@@ -36,7 +36,7 @@
             <?php if (strtotime((string)$page->anmeldung_start()) < time()): ?>
                 <form method="post" data-abide id="myForm">
                     <div class="row">
-                        <div class="small-9 columns">
+                        <div class="small-12 large-9 columns">
                             <div class="row">
                                 <div class="small-3 columns">
                                     <label for="vorname" class="right inline">Vorname</label>

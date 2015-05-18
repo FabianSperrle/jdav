@@ -25,3 +25,7 @@ fields:
           fetch: visibleChildren
           value: '{{name}}'
           text: '{{name}}'
+      funktion:
+        label: Funktion
+        type: text
+        help: z.B. Jugendreferent, Web-Design, ...

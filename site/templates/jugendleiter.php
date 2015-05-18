@@ -8,20 +8,11 @@
                 <li>
                     <?php if($avatar = $julei->avatar()): ?>
                         <img src="<?= $avatar->url() ?>" alt="<?= $julei->firstName() . ' ' . $julei->lastName() ?>">
+                        <?php else: ?>
+                        <img src="<?= $site->url() ?>/assets/avatars/default.jpg" alt="<?= $julei->firstName() . ' ' . $julei->lastName() ?>">
                     <?php endif; ?>
-                    <div class="text-center">
-                        <?= $julei->firstName() ?> <?= $julei->lastName() ?>
-                    </div>
-                </li>
-            <?php endforeach; ?>
-            <?php foreach ($site->users()->filterBy('role', '==', 'jugendleiter')->sortBy('lastName') as $julei): ?>
-                <li>
-                    <?php if($avatar = $julei->avatar()): ?>
-                        <img src="<?= $avatar->url() ?>" alt="<?= $julei->firstName() . ' ' . $julei->lastName() ?>">
-                    <?php endif; ?>
-                    <div class="text-center">
-                        <?= $julei->firstName() ?> <?= $julei->lastName() ?>
-                    </div>
+                    <div class="text-center"> <?= $julei->firstName() ?> <?= $julei->lastName() ?> </div>
+                    <div class="text-center">(<?= $jugendleiter['gruppe'] ?>)</div>
                 </li>
             <?php endforeach; ?>
         </ul>

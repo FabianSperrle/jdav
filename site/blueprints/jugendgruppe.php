@@ -11,7 +11,7 @@ fields:
     type: text
   beschreibung:
     label: Beschreibungstext
-    type: textarea
+    type: markdown
     size: medium
   bild:
     label: Bild

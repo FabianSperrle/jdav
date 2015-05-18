@@ -6216,9 +6216,6 @@ nav {
   margin-right: 1rem;
   color: #258937; }
 
-.meta {
-  color: #888888; }
-
 .entry-gallery {
   margin: 0;
   margin-bottom: 1em;
@@ -6232,3 +6229,17 @@ footer {
   margin-bottom: 5rem; }
   footer .row {
     padding-top: 2rem; }
+
+.meta h3 {
+  margin-top: -.2rem; }
+
+form .row {
+  background: none; }
+
+.gruppe .row {
+  background: none; }
+.gruppe .details {
+  margin-top: 1rem; }
+
+.meta {
+  color: #888888; }
