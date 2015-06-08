@@ -1,0 +1,11 @@
+Title: Warteliste
+
+----
+
+Mitglieder: 
+
+- 
+  name: Fabian Sperrle
+  email: fabian.sperrle@uni.kn
+  geb: 2015-05-19
+  bemerkung: ich will uuuuunbedingt klettern!

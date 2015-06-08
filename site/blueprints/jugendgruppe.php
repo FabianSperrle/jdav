@@ -4,9 +4,6 @@ title: Jugendgruppe
 pages: false
 fields:
   title:
-    label: Titel
-    type: text
-  name:
     label: Gruppenname
     type: text
   beschreibung:

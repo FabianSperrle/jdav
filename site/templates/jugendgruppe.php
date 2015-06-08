@@ -2,7 +2,7 @@
 
 <div class="row gruppe">
     <div class="small-12 columns">
-        <h4><?= $page->name() ?><h4>
+        <h4><?= $page->title() ?><h4>
     </div>
     <div class="small-12 medium-6 columns">
         <div class="row">

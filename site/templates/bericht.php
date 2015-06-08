@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+<?php go() ?>
+
 <div class="row">
     <div class="small-12 columns">
         <h1><?= $page->title() ?></h1>

@@ -15,7 +15,7 @@
                     <a href="<?= $group->url() ?>"><img
                             src="<?php echo thumb($group->images($group->bild()->text()), array('width' => 300, 'upscale' => true))->url() ?>"/></a>
 
-                    <div class="text-center"><?= $group->name() ?></div>
+                    <div class="text-center"><?= $group->title() ?></div>
                 </li>
             <?php endforeach; ?>
         </ul>
@@ -37,7 +37,7 @@
                     <a href="<?= $group->url() ?>"><img
                             src="<?php echo thumb($group->images($group->bild()->text()), array('width' => 300, 'upscale' => true))->url() ?>"/></a>
 
-                    <div class="text-center"><?= $group->name() ?></div>
+                    <div class="text-center"><?= $group->title() ?></div>
                 </li>
             <?php endforeach; ?>
         </ul>
@@ -59,7 +59,7 @@
                     <a href="<?= $group->url() ?>"><img
                             src="<?php echo thumb($group->images($group->bild()->text()), array('width' => 300, 'upscale' => true))->url() ?>"/></a>
 
-                    <div class="text-center"><?= $group->name() ?></div>
+                    <div class="text-center"><?= $group->title() ?></div>
                 </li>
             <?php endforeach; ?>
         </ul>

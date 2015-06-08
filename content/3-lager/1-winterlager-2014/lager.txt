@@ -21,6 +21,7 @@ Teilnehmer:
   plz: 78467
   ort: Konstanz
   gruppe: Kletteräffchen
+  status: einv
 - 
   vorname: Peter
   nachname: Müller
@@ -29,6 +30,7 @@ Teilnehmer:
   plz:
   ort:
   gruppe:
+  status: einv
 - 
   vorname: Fabian
   nachname: Sperrle
@@ -44,102 +46,7 @@ Teilnehmer:
   email2: fabian.sperrle@gmail.com
   veggie: nein
   gruppe: Kletteräffchen
-- 
-  vorname: lkj
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname: lkj
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname: test
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname: test
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname: test
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
-- 
-  vorname: test
-  nachname:
-  geschlecht: m
-  strasse:
-  hausnummer:
-  plz:
-  ort:
-  telefon:
-  handy:
-  geb:
-  email:
-  email2:
-  veggie: nein
-  gruppe:
-  status: angemeldet
+  status: bezahlt
 
 ----
 
@@ -173,3 +80,7 @@ Start: 2015-12-21
 ----
 
 Ende: 2016-01-03
+
+----
+
+Jlplaetze: 5

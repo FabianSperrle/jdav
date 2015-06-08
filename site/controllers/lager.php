@@ -27,12 +27,11 @@ return function (Site $site, $pages, Page $page) {
         $neu['email2'] = get('email2');
         $neu['veggie'] = get('veggie');
         $neu['gruppe'] = get('gruppe');
-        if (count($page->teilnehmer()->yaml()) > $page->plaetze()->int())
+        if (count($page->teilnehmer()->yaml()) > $page->plaetze()->int()) {
             $neu['status'] = "liste";
-        else
+        } else {
             $neu['status'] = "angemeldet";
-
-
+        }
 
         // No errors, update the page
         if (empty($errors)) {
@@ -51,5 +50,4 @@ return function (Site $site, $pages, Page $page) {
     }
 
     return array('errors' => false);
-
 };
