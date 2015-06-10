@@ -1,18 +1,30 @@
 <?php snippet('header') ?>
 
+<div class="row"><div class="small-12 columns">
 <?php if (isset($success) and $success === true): ?>
     <div data-alert class="alert-box success">
-        Deine Anmeldung war erfolgreich! Du hast eine Mail bekommen, wir freuen uns auf Dich!
+        <p>Deine Anmeldung war erfolgreich!</p>
+        Du hast eine Mail bekommen, wir freuen uns auf Dich!
         <a href="#" class="close">&times;</a>
     </div>
 <?php endif; ?>
 
-<?php if (isset($errors) and $errors !== false): ?>
+<?php if (isset($wl) and $wl === true): ?>
     <div data-alert class="alert-box warning">
-        Achtung, es sind Fehler aufgetreten!
+        <p>Du stehst auf der Warteliste!</p>
+        Deine Anmeldung war erfolgreich - leider haben wir aber nur noch Plätze auf der Warteliste frei. 
         <a href="#" class="close">&times;</a>
     </div>
 <?php endif; ?>
+
+<?php if (isset($error) and $error === true): ?>
+    <div data-alert class="alert-box alert">
+        <p>Deine Anmeldung konnte nicht abgeschlossen werden! :(</p>
+        Leider ist ein Fehler aufgetreten. Bitte versuche es in ein paar Minuten erneut!
+        <a href="#" class="close">&times;</a>
+    </div>
+<?php endif; ?>
+</div></div>
 
 <div class="row">
     <div class="small-9 columns">
@@ -178,6 +190,15 @@
                                             <option><?= $gruppe->name() ?></option>
                                         <?php endforeach ?>
                                     </select>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <label for="sonstiges" class="right inline">Sonstiges</label>
+                                </div>
+                                <div class="small-9 columns">
+                                    <textarea name="sonstiges" id="sonstiges"></textarea>
                                 </div>
                             </div>
 

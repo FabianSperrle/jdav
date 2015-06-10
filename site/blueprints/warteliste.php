@@ -4,13 +4,6 @@ title: Warteliste
 pages: false
 files: false
 fields:
-  info:
-    type: info
-    label: Info
-    text: >
-      Dies ist die *Rohversion* der Warteliste, die das System benötigt, um die Daten zu speichern. Eine (hoffentlich) besser
-      nutzbare Version (link: /intern/warteliste text: findet ihr hier). Die Daten sind die gleichen, wo ihr Änderungen
-      durchführt ist also egal.
   title:
     label: Titel
     type: text
@@ -21,20 +14,47 @@ fields:
     label: Einträge auf der Warteliste
     type: structure
     fields:
-      name:
+      vorname:
+        type: text
+        label: Vorname
+      nachname:
         type: text
         label: Name
-      email:
-        type: email
-        label: Email
       geb:
         type: date
         label: Geburtstag
+      strasse:
+        type: text
+        label: Straße
+        width: 3/4
+      hausnummer:
+        type: text
+        label: Hausnummer
+        width: 1/4
+      plz: 
+        type: number
+        label: PLZ
+        width: 1/4
+      ort:
+        type: text
+        label: Wohnort
+        width: 3/4
+      email:
+        type: email
+        label: Email
+      telefon:
+        type: text
+        label: Telefonnummer
+      erfahrung:
+        type: textarea
+        size: small
+        label: Kletterfahrung
       bemerkung:
         type: textarea
         size: small
         label: Bemerkungen
     entry: >
-      <b>{{name}} ({{geb}})</b> <br />
-      {{email}} <br />
-      <span style="color:grey">{{bemerkung}}</span>
+      <b>{{vorname}} {{nachname}} ({{geb}})</b> <br>
+      {{email}} <br>
+      Erfahrung: <p style="color:grey">{{erfahrung}}</p>
+      Bemerkung: <p style="color:grey">{{bemerkung}}</p>

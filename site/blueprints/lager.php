@@ -26,6 +26,14 @@ fields:
   a:
     label: Organisatorisches
     type: headline
+  preis:
+    type: number
+    label: Preis
+    width: 1/2
+  jlpreis:
+    type: number
+    label: Preis für Anwärter
+    width: 1/2
   b: 
     type: info
     text: >
@@ -55,36 +63,51 @@ fields:
       vorbei: vorbei
     default: ja
     width: 1/2
-  j:
+  p:
     type: headline
-    label: Jugendleiter
-  jugendleiter:
-    label: Liste der Jugendleiter
-    type: structure
-    entry: >
-      Username: {{name}}
-    fields:
-      name:
-        label: Username
-        type: user
+    label: Geld & Einverständniserklärungen
+  einv-adresse:
+    type: textarea
+    size: medium
+    label: Adresse, an die die Einverständniserklärung geschickt werden soll
+  kto:
+    type: text
+    label: Kontoeigentümer
+    width: 1/2
+  bank:
+    type: text
+    label: Kreditinstitut
+    width: 1/2
+  bic:
+    type: text
+    label: BIC
+    width: 1/2
+  iban: 
+    type: text
+    label: IBAN
+    width: 1/2
+  g:
+    type: headline
+    label: Gadget
+  gadget:
+    label: Gibt es ein Geschenk für die Teilnehmer?
+    type: toggle
+    text: yes/no
+  gadget-name:
+    label: Gadget-Name
+    type: text
+    width: 1/2
+  gadget-sizes:
+    label: Verfügbare Größen, kommasepariert
+    type: tags
+    width: 1/2
   t:
     type: headline
     label: Teilnehmer
   teilnehmer:
     label: Teilnehmerliste
     type: colorstruct
-    entry: >
-      {{vorname}} {{nachname}}<br>
-    sort: 
-      status:
-        - komplett
-        - bezahlt
-        - einv
-    colors:
-      status:
-        einv: 444
-        bezahlt: BAC
-        komplett: 592019
+    help: Bitte denke daran, alle Änderungen auch zu speichern!
     fields:
       vorname:
         label: Vorname
@@ -103,6 +126,15 @@ fields:
           einv: Einverständniserklärung unterschrieben
           komplett: Bezahlt & unterschrieben
           liste: Auf der Warteliste
+        width: 1/2
+      typ:
+        label: Typ
+        type: select
+        options:
+          j: Jugendleiter
+          t: Teilnehmer
+          a: Anwärter
+        width: 1/2
       strasse:
         label: Straße
         type: text
@@ -137,6 +169,10 @@ fields:
         options:
           ja: Ja
           nein: Nein
+      sonstiges:
+        label: Sonstiges
+        type: textarea
+        size: medium
       gruppe:
         label: Jugendgruppe
         type: select

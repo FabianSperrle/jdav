@@ -1,13 +1,4 @@
-Title: Winterlager 2015
-
-----
-
-Jugendleiter: 
-
-- 
-  name: fabian
-- 
-  name: maxi
+Title: Winterlager 2014
 
 ----
 
@@ -16,21 +7,52 @@ Teilnehmer:
 - 
   vorname: Fabian
   nachname: Sperrle
+  status: einv
+  typ: j
   strasse: Wollmatingerstraße
   hausnummer: 55
   plz: 78467
   ort: Konstanz
-  gruppe: Kletteräffchen
-  status: einv
+  telefon:
+  handy:
+  geb:
+  email:
+  veggie: nein
+  sonstiges: |
+    What the hell la
+    la
+    la
+    this is a very long text
+  gruppe:
 - 
   vorname: Peter
   nachname: Müller
+  status: komplett
+  typ: t
   strasse:
   hausnummer:
   plz:
   ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  veggie: nein
+  sonstiges: >
+    Dies ist der Sonstige text, um so
+    länger er ist um so länger wird die
+    Liste auf der die gasen Leute stehen, da
+    das ja alles mitausgrdruckt werden muss,
+    wenn dass dann alle Leute so machen
+    würden.. ja dann wären nur ganz wenige
+    Teilnehmer auf einer Seite und das
+    würde dann ewig viel papier kosten und
+    da wir die Bürokratie in Deutschland ja
+    so sehr leiben, kann es ja nicht schaden
+    noch mehr Papier zu verschwenden, denn
+    wer mehr Papier hat der hat mehr
+    Papier!! PAAMM!
   gruppe:
-  status: einv
 - 
   vorname: Fabian
   nachname: Sperrle
@@ -39,35 +61,751 @@ Teilnehmer:
   hausnummer: 55
   plz: 78467
   ort: Konstanz
-  tel: 4917698700546
-  handy:
+  telefon: 176
+  handy: 1234
   geb: 19.05.1992
   email: fabian.sperrle@gmail.com
   email2: fabian.sperrle@gmail.com
   veggie: nein
-  gruppe: Kletteräffchen
-  status: bezahlt
+  gruppe:
+  sonstiges: null
+  status: angemeldet
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: angemeldet
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: angemeldet
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 9799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
+- 
+  vorname: test
+  nachname: test
+  geschlecht: m
+  strasse: lkajdf
+  hausnummer: 90
+  plz: 09799
+  ort: lkjadflj
+  telefon: 70972879
+  handy: 79879698698
+  geb: 11.11.1111
+  email: fabian.sperrle@gmail.com
+  email2: fabian.sperrle@gmail.com
+  veggie: ja
+  gruppe:
+  sonstiges: |
+    lkjadf
+    af
+    adf
+    a
+    sdf
+    adf
+    as
+    dfajsdflkaj
+    sdf asdfj a
+    sdfkja
+    sdfk ja
+    sdfkjasldfja ld
+    fkja
+    sdlfk a
+    lösdfka
+    ösdkfl
+     adkf
+    öaskdflaskdföaklsdf
+     askdöfk asdfkasdöfjaslkfj #asj #asdf
+    asd j
+    fa
+    sdf asdflasdfjk 
+    ajflasf
+    j asdfk ajsdf
+    sj df
+    asj
+     faksjdfk
+    asjdf
+    öiq
+    tgqjdg q5kötkö
+     rjas
+    döfgjöhj5
+    öajef
+     qje
+    gj q
+    w4tiqwe9f
+    asugha
+    srofi pifuj
+  status: liste
+  typ: t
 
 ----
 
 Beschreibung: 
 
-# yay schnee und so! 
-letz fetz!
+Du bist im Winter gerne draußen im Schnee? Du bist begeisterter Ski-oder Snowboardfahrer oder wolltest es schon immer einmal ausprobieren? Du hast deine Winterferien noch nicht verplant? Du bekommst Fernweh bei solchen Bildern? 
 
-> Bisher war's immer cool
+Dann komm doch mit auf unser Winterlager! Wir werden gemeinsam 8 Tage auf einer (link: http://www.ferienhaeuser-muglin.ch/5901/index.html text: Selbstversorgerhütte) im Schweizer Tschierv verbringen – ein Bergdorf mit engen verschneiten Gassen und dem typischen Engadiner Charme. Tief im Val Müstair wirst du wundervolle Wintertage mit einer Gruppe von 50 Jugendlichen erleben!
+
+Gemeinsam erkunden wir die verschneiten Hänge von (link: http://minschuns.ch/skigebiet/ text: Mischuns). Ob klassisch auf der Piste oder bei einer Ski-, Snowboard- oder Schneeschuhtour - wie du Lust hast! Oder wir gehen Tiefschneeslacken, bauen ein Iglu, machen eine Schneeballschlacht … langweilig wird UNS nicht!
+
+Der Umgang mit den Risiken in den Bergen, Lagebeurteilung und die Handhabung mit dem LVS-Gerät gehört auch dieses Jahr wieder für alle Teilnehmer zu unserem Schulungsteil dazu. 				      
+Die Betreuung des Lagers erfolgt durch ausgebildete Jugendleiter der Jugend des Deutschen Alpenvereins. Gemeinschaft und soziales Miteinander sind uns sehr wichtig. Wir nehmen Rücksicht aufeinander, Leistung steht nicht im Vordergrund, jeder geht bei den Aktivitäten so weit mit, wie er kann und möchte! 
+
+Viele Bilder der letzten Lager findest du auf der Homepage unter „(link: /bilder-und-berichte text: Bilder und Berichte)“.
+
+Es erwarten dich 8 unvergessliche und abwechslungsreiche Tage im Val Müstair in der Schweiz!
+
+
+**Wann?**
+{{Start}} - {{Ende}}
+
+**Wo?**
+(link:http://www.ferienhaeuser-muglin.ch/5901/index.html text: Cha Pra Muglin) CH-7532 Tschierv GR
+
+**Wer?**
+Alle Kinder und Jugendliche ab 10 Jahren. Man sollte bereits auf den Skiern/Snowboard gestanden haben, ansonsten ist aber kein besonderes Können nötig
+Die Mitgliedschaft im Deutschen Alpenverein ist Voraussetzung (die (link: http://dav-konstanz.de/index.php?option=com_content&view=article&id=77&Itemid=166 text: Mitgliedschaft) ist kostengünstig und schnell gemacht).
+
+**Wie viel?**
+{{Preis}}€ inkl. Unterkunft, Verpflegung, Busreise ab Konstanz und Tourenmaterial. Liftkarten sind nicht im Preis inbegriffen. Preise dafür sind (link: http://minschuns.ch/skigebiet/ text: hier) zu finden.
+
+**Anmeldeverfahren**
+Zunächst musst du das untenstehende Onlineformular vollständig und korrekt ausfüllen (alle Felder ausfüllen, keine Spitznamen oder Abkürzungen, etc.) und absenden.
+Du erhältst dann eine Email von uns, in der alle weiteren Schritte erklärt werden.
+**Achtung:** Die Onlineanmeldung ist nur dann erfolgreich, wenn du nach dem Anmelden auf eine neue Seite weitergeleitet wirst, auf der steht "Anmeldung gespeichert". Wenn du Schwierigkeiten bei der Anmeldung hast oder du nach spätestens einer halben Stunde keine Mail erhältst melde dich bitte bei uns!
+
+**Du hast noch Fragen?**
+Dann sprich deine Jugendleiter an oder schreib uns eine E-Mail. Wir helfen dir gerne weiter!
+Bei allgemeinen Fragen zum Lager: (email: raffael.lutz@hotmail.de)
+Bei Fragen zum Anmeldeverfahren: (email: maximilian.dinkel@jdav-konstanz.de)
+
+
+Weitere Infos (Packliste, Treffpunkt, Abfahrt etc.) lassen wir dir rechtzeitig zukommen.
+
+Am 1. Dezember um 19:00 findet ein Informationsabend statt, an dem du alle bis dahin noch offenen Fragen stellen kannst und du alle Jugendleiter persönlich kennen lernen kannst.
+
+
+Wir freuen uns auf dich!
+
+*Deine Jugendleiter der JDAV Konstanz*
 
 ----
 
-Anmeldung-start: 2015-05-14
+Anmeldung-start: 
 
 ----
 
-Anmeldung-ende: 2015-05-24
+Anmeldung-ende: 
 
 ----
 
-Plaetze: 30
+Plaetze: 4
 
 ----
 
@@ -84,3 +822,47 @@ Ende: 2016-01-03
 ----
 
 Jlplaetze: 5
+
+----
+
+Preis: 220
+
+----
+
+Jlpreis: 100
+
+----
+
+Einv-adresse: 
+
+Fabian Sperrle
+Wollmatinger Straße 55
+78467 Konstanz
+
+----
+
+Kto: Fabian Sperrle
+
+----
+
+Bic: GENODE61BBB
+
+----
+
+Iban: DE92 6609 0800 0004 1653 14
+
+----
+
+Bank: BBBank Karlsruhe
+
+----
+
+Gadget: true
+
+----
+
+Gadget-name: Hose
+
+----
+
+Gadget-sizes: S,M,L,XL

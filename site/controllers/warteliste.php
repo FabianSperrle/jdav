@@ -21,31 +21,20 @@ return function (Site $site, $pages, Page $page) {
         $neu['plz'] = get('plz');
         $neu['ort'] = get('ort');
         $neu['telefon'] = get('tel');
-        $neu['handy'] = get('handy');
         $neu['geb'] = get('geb');
         $neu['email'] = get('email');
-        $neu['email2'] = get('email2');
-        $neu['veggie'] = get('veggie');
-        $neu['gruppe'] = get('gruppe');
         $neu['sonstiges'] = get('sonstiges');
-        if ($wl = (count($page->teilnehmer()->yaml()) >= $page->plaetze()->int())) {
-            $neu['status'] = "liste";
-        } else {
-            $neu['status'] = "angemeldet";
-        }
-        $neu['typ'] = 't';
+        $neu['erfahrung'] = get('erfahrung');
 
-        $teilnehmer = $page->teilnehmer()->yaml();
+        $teilnehmer = $page->mitglieder()->yaml();
         $teilnehmer[] = $neu;
         try {
-            $page->update(array('teilnehmer' => yaml::encode($teilnehmer)));
-            if ($wl) return array('wl' => true);
-            else return array('success' => true);
+            $page->update(array('mitglieder' => yaml::encode($teilnehmer)));
+            return array('success' => true);
         } catch (Exception $e) {
             // Updating page failed
             return ['error' => true];
         }
     }
-
-    return array('errors' => false);
+    return array();
 };

@@ -1,0 +1,3 @@
+title: Anmeldung erforlderlich
+----
+text: Du musst dich im (link: panel text: Panel) anmelden, um diese Datei sehen zu können. Komme wieder hierher zurück, wenn du angemeldet bist.

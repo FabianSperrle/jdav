@@ -35,14 +35,14 @@
                             <?php if ($doc == null): ?>
                                 -
                             <?php else: ?>
-                                <a href="<?= $doc->url() ?>">Doc (<?= $doc->niceSize() ?>)</a>
+                                <a target="_blank" href="<?= $doc->url() ?>">Doc (<?= $doc->niceSize() ?>)</a>
                             <?php endif; ?>
                         </td>
                         <td>
                             <?php if ($pdf == null): ?>
                                 -
                             <?php else: ?>
-                                <a href="<?= $pdf->url() ?>">PDF (<?= $pdf->niceSize() ?>)</a>
+                                <a target="_blank" href="<?= $pdf->url() ?>">PDF (<?= $pdf->niceSize() ?>)</a>
                             <?php endif; ?>
                         </td>
                     </tr>
@@ -72,7 +72,7 @@
                             <?php if ($pdf == null): ?>
                                 -
                             <?php else: ?>
-                                <a href="<?= $pdf->url() ?>">PDF (<?= $pdf->niceSize() ?>)</a>
+                                <a target="_blank" href="<?= $pdf->url() ?>">PDF (<?= $pdf->niceSize() ?>)</a>
                             <?php endif; ?>
                         </td>
                     </tr>

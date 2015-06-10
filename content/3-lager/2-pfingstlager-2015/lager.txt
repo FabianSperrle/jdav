@@ -32,6 +32,25 @@ Jugendleiter:
 
 Teilnehmer: 
 
+- 
+  vorname: Fabi
+  nachname:
+  status:
+  strasse:
+  hausnummer:
+  plz:
+  ort:
+  telefon:
+  handy:
+  geb:
+  email:
+  veggie:
+  gruppe:
+
 ----
 
 Status: ja
+
+----
+
+Jlplaetze: 

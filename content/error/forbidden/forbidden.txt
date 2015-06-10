@@ -1,0 +1,3 @@
+title: Zugriff verweigert.
+----
+text: Sorry, aber du hast nicht die nötigen Rechte, um diese Seite zu sehen!
