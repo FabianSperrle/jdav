@@ -20,7 +20,11 @@
 <?php if (isset($error) and $error === true): ?>
     <div data-alert class="alert-box alert">
         <p>Deine Anmeldung konnte nicht abgeschlossen werden! :(</p>
-        Leider ist ein Fehler aufgetreten. Bitte versuche es in ein paar Minuten erneut!
+        <?php if(isset($message)): ?>
+            <?= $message ?>
+        <?php else: ?>
+            Leider ist ein Fehler aufgetreten. Bitte versuche es in ein paar Minuten erneut!
+        <?php endif; ?>
         <a href="#" class="close">&times;</a>
     </div>
 <?php endif; ?>
@@ -37,12 +41,12 @@
         <?php endforeach ?>
     </div>
 </div>
-<div class="row">
-    <div class="small-12 columns">
-        <hr>
+<?php if ((string) $page->anmeldung() == 'true'): ?>
+    <div class="row">
+        <div class="small-12 columns">
+            <hr>
+        </div>
     </div>
-</div>
-<?php if (true): ?>
     <div class="row">
         <div class="small-12 columns">
             <?php if (strtotime((string)$page->anmeldung_start()) < time()): ?>

@@ -9,6 +9,9 @@
  * @return array
  */
 return function (Site $site, $pages, Page $page) {
+    if ((string) $page->anmeldung() == 'false') {
+        return array('error' => true, 'message' => 'Die Anmeldung für dieses Lager ist nicht freigeschaltet!');
+    }
     // handle the form submission
     if (r::is('post') and get('submit2a')) {
         // Get info from the POST variable

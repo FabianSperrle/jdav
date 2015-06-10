@@ -23,6 +23,13 @@ fields:
     label: Enddatum
     type: date
     width: 1/2
+  ab:
+    label: Anmeldung
+    type: headline
+  anmeldung:
+    type: toggle
+    label: Ist eine Anmeldung für die Veranstaltung möglich / nötig?
+    options: yes/no
   a:
     label: Organisatorisches
     type: headline

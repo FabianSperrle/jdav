@@ -693,7 +693,7 @@ Teilnehmer:
   geschlecht: m
   strasse: lkajdf
   hausnummer: 90
-  plz: 09799
+  plz: 9799
   ort: lkjadflj
   telefon: 70972879
   handy: 79879698698
@@ -724,7 +724,7 @@ Teilnehmer:
      askdöfk asdfkasdöfjaslkfj #asj #asdf
     asd j
     fa
-    sdf asdflasdfjk 
+    sdf asdflasdfjk
     ajflasf
     j asdfk ajsdf
     sj df
@@ -866,3 +866,7 @@ Gadget-name: Hose
 ----
 
 Gadget-sizes: S,M,L,XL
+
+----
+
+Anmeldung: true

@@ -26,10 +26,6 @@ Plaetze: 40
 
 ----
 
-Jugendleiter: 
-
-----
-
 Teilnehmer: 
 
 - 
@@ -54,3 +50,47 @@ Status: ja
 ----
 
 Jlplaetze: 
+
+----
+
+Anmeldung: true
+
+----
+
+Preis: 
+
+----
+
+Jlpreis: 
+
+----
+
+Einv-adresse: 
+
+----
+
+Kto: 
+
+----
+
+Bank: 
+
+----
+
+Bic: 
+
+----
+
+Iban: 
+
+----
+
+Gadget: true
+
+----
+
+Gadget-name: 
+
+----
+
+Gadget-sizes: 

@@ -2,7 +2,7 @@ Title: Informationsabend Pfingstlager Kroatien
 
 ----
 
-Beschreibung: 
+Beschreibung: Infoabend fürs Pfingslater...
 
 ----
 
@@ -26,12 +26,56 @@ Plaetze:
 
 ----
 
-Jugendleiter: 
-
-----
-
 Teilnehmer: 
 
 ----
 
 Status: ja
+
+----
+
+Anmeldung: false
+
+----
+
+Preis: 
+
+----
+
+Jlpreis: 
+
+----
+
+Jlplaetze: 
+
+----
+
+Einv-adresse: 
+
+----
+
+Kto: 
+
+----
+
+Bank: 
+
+----
+
+Bic: 
+
+----
+
+Iban: 
+
+----
+
+Gadget: true
+
+----
+
+Gadget-name: 
+
+----
+
+Gadget-sizes: 
