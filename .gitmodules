@@ -6,4 +6,4 @@
 	url = https://github.com/getkirby/panel.git
 [submodule "site/fields/markdown"]
 	path = site/fields/markdown
-	url = git@github.com:jonasdoebertin/kirby-visual-markdown.git
+	url = https://github.com/jonasdoebertin/kirby-visual-markdown.git
