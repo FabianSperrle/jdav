@@ -30,6 +30,15 @@ fields:
     type:  markdown
     size:  large
     required: true
+  gruppe:
+    label: Jugendgruppe
+    type: select
+    options: query
+    query: 
+      page: jugendgruppen
+      fetch: children
+      value: '{{title}}'
+      text: '{{title}}'
   year:
     label: Jahr des Events
     type: number

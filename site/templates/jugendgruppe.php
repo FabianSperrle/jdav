@@ -36,6 +36,18 @@
         <?php endif; ?>
         <?php if ($page->treffpunkt() != ""): ?>
             <div class="details"><b>Treffpunkt:</b> <?= $page->treffpunkt() ?></div>
+        <?php endif;
+
+        $reports = page('bilder-und-berichte')->children()->visible()->filterBy('gruppe', (string) $page->title());
+        if ($reports->count() > 0): ?>
+            <div class="details">
+                <b>Berichte und Gallerien mit Ausflügen der <?= $page->title() ?></b>
+                <ul>
+                    <?php foreach($reports as $report): ?>
+                        <li><a href="<?= $report->url() ?>" alt="<?= $report->title() ?>"><?= $report->title() ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
         <?php endif; ?>
     </div>
 </div>
