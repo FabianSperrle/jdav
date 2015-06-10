@@ -180,5 +180,5 @@ fields:
         query: 
           page: jugendgruppen
           fetch: visibleChildren
-          value: '{{name}}'
-          text: '{{name}}'
+          value: '{{title}}'
+          text: '{{title}}'
