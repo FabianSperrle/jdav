@@ -10,6 +10,9 @@ fields:
     default: Warteliste
     override: true
     readonly: true
+  text:
+    label: Text
+    type: markdown
   mitglieder:
     label: Einträge auf der Warteliste
     type: structure

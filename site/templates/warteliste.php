@@ -26,6 +26,12 @@
 
 <div class="row">
     <div class="small-12 columns">
+        <?= $page->text()->kirbytext(); ?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
         <?php if ($user = $site->user() and ($user->hasRole('admin') or $user->hasRole('jugendleiter'))): ?>
             <div data-alert class="alert-box warning">
                 <p>Suchst du die Einträge in der Warteliste?</p>
