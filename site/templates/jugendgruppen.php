@@ -34,8 +34,15 @@
         <ul class="small-block-grid-3">
             <?php foreach ($page->children()->visible()->filterBy('ort', '==', 'konstanz')->sortBy('name', 'ASC') as $group): ?>
                 <li>
+                    <?php 
+                    $image;
+                    if ($group->bild() != "") {
+                        $image = $group->images($group->bild());
+                    } else {
+                        $image = $page->images('nophoto.jpg');
+                    } ?>
                     <a href="<?= $group->url() ?>"><img
-                            src="<?php echo thumb($group->images($group->bild()->text()), array('width' => 300, 'upscale' => true))->url() ?>"/></a>
+                            src="<?php echo thumb($image, array('width' => 300, 'upscale' => true))->url() ?>"/></a>
 
                     <div class="text-center"><?= $group->title() ?></div>
                 </li>
