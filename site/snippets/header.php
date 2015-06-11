@@ -14,4 +14,6 @@
 
 </head>
 <body>
+<?php $footer = page('home')->images()->findBy('name', 'footer'); ?>
+<body style="background-image: url('<?= thumb($footer, array('width' => 1920, 'quality' => 60))->url() ?>');">
     <?php snippet('menu') ?>
