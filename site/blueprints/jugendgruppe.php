@@ -6,10 +6,12 @@ fields:
   title:
     label: Gruppenname
     type: text
+    required: true
   beschreibung:
     label: Beschreibungstext
     type: markdown
     size: medium
+    required: true
   bild:
     label: Bild
     type: select
@@ -31,6 +33,7 @@ fields:
       radolfzell: Radolfzell
       konstanz: Konstanz
       singen: Singen
+    required: true
   jugendleiter:
     label: Jugendleiter
     type: structure
