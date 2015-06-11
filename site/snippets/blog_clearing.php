@@ -16,7 +16,7 @@
                 } else if ($image->foto() != "") {
                     $caption = "&copy; " . $image->foto();
                 } ?>
-                ><a href="<?= $thumb->source()->url() ?>"><img data-caption="<?= $caption ?>" class="th" src="<?= $thumb->url() ?>"></a></li>
+                ><a href="<?= thumb($image, array('width' => 700, 'upscale' => false))->url() ?>"><img data-caption="<?= $caption ?>" class="th" src="<?= $thumb->url() ?>"></a></li>
             <?php endforeach; ?>
         </ul>
     </div>
