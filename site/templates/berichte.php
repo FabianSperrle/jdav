@@ -26,7 +26,6 @@ $years = $collection->pluck('year', null, true);
                     ?>
                     <li><a href="<?= $report->url() ?>">
                             <div>
-<?php var_dump($report->title() . " " . $image->url()); ?>
                                 <img
                                     src="<?= thumb($image, array('height' => 150, 'width' => 227, 'crop' => true))->url() ?>"/>
                             </div>
