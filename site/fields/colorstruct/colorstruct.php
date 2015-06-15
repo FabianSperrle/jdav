@@ -4,10 +4,12 @@ class ColorstructField extends BaseField {
 
     static public $assets = array(
         'js' => array(
-            'colorstructure.js'
+            'colorstructure.js',
+            'sweetalert.min.js'
         ),
         'css' => array(
-            'structure.css'
+            'structure.css',
+            'sweetalert.css'
         )
     );
 

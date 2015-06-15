@@ -120,7 +120,7 @@
             var status = data.status;
 
             if (status == 'liste') {
-                alert('Aktion nicht erlaubt. Diese Person steht auf der Warteliste.');
+                swal('Oops', 'Aktion nicht erlaubt. Diese Person steht auf der Warteliste.', 'error');
                 return;
             }
 
@@ -148,7 +148,7 @@
             var status = data.status;
 
             if (status == 'liste') {
-                alert('Aktion nicht erlaubt. Diese Person steht auf der Warteliste.');
+                swal('Oops', 'Aktion nicht erlaubt. Diese Person steht auf der Warteliste.', 'error');
                 return;
             }
 
@@ -198,14 +198,23 @@
         };
 
         this.remove = function(id) {
-
-            if(confirm('Do you really want to delete this entry?')) {
-                self.entries = $.grep(self.entries, function(item) {
-                    return item._id != id;
-                });
-                self.render();
-            }
-
+            swal({
+                    title: "Bist du sicher?",
+                    text: "Diese Aktion kann nicht rückgängig gemacht werden!",
+                    type: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#DD6B55",
+                    confirmButtonText: "Ja, löschen!",
+                    closeOnConfirm: false
+                },
+                function() {
+                    self.entries = $.grep(self.entries, function(item) {
+                        return item._id != id;
+                    });
+                    self.render();
+                    swal("OK!", "Die Person wurde von der Teilnehmerliste gelöscht. Vergiss nicht, die Seite ganz unten zu speichern.", "success");
+                }
+            );
         };
 
         this.sort = function(list) {
