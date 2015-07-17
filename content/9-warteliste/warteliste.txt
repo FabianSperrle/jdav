@@ -94,3 +94,16 @@ Mitglieder:
   email: fabian.sperrle@gmail.com
   sonstiges: Klettern ist cool.
   erfahrung: leider keine :(
+- 
+  vorname: fabian
+  nachname: sperrle
+  geschlecht: m
+  strasse:
+  hausnummer:
+  plz:
+  ort: konstnaz
+  telefon:
+  geb: 13.05.1992
+  email: fabian.sperrle@uni.kn
+  sonstiges:
+  erfahrung:

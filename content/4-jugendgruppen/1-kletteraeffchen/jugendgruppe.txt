@@ -24,6 +24,8 @@ Jugendleiter:
   name: fabian
 - 
   name: maxi
+- 
+  name: peter
 
 ----
 
