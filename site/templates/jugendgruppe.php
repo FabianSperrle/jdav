@@ -7,7 +7,14 @@
     <div class="small-12 medium-6 columns">
         <div class="row">
             <div class="small-12 columns">
-                <img src="<?= thumb($page->images($page->bild()), array('width' => 500, 'upscale' => true))->url() ?>"/>
+                <?php
+                    $image;
+                    if (!$page->bild()->isEmpty()) {
+                        $image = $page->images($page->bild());
+                    } else {
+                        $image = $page->parent()->images('nophoto.jpg');
+                    } ?>
+                <img src="<?= thumb($image, array('width' => 500, 'upscale' => true))->url() ?>"/>
             </div>
             <div class="small-12 columns">
                 <h3>Jugendleiter</h3>
