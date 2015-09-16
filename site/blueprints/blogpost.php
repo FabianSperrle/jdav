@@ -17,8 +17,7 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
-    size:  large
+    type:  markdown
   info:
     label: Bilder
     type: info
@@ -41,6 +40,7 @@ fields:
     label: Veröffentlichungsdatum
     type: date
     width: 1/2
+    default: today
   author:
     label: Autor
     type: user
