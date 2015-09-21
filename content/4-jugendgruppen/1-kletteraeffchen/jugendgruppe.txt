@@ -10,22 +10,11 @@ Jahrgang: 2001 - 2003
 
 ----
 
-Treffpunkt: Hier könnte ihre Werbung stehen
+Treffpunkt: 
 
 ----
 
 Zeit: Mittwoch 17:00-19:00 Uhr
-
-----
-
-Jugendleiter: 
-
-- 
-  name: fabian
-- 
-  name: maxi
-- 
-  name: peter
 
 ----
 

@@ -1,4 +1,4 @@
-Title: Winterlager 2014
+Title: Winterlager 2015
 
 ----
 
@@ -298,18 +298,17 @@ Teilnehmer:
 - 
   vorname: test
   nachname: test
-  geschlecht: m
+  status: liste
+  typ: t
   strasse: lkajdf
   hausnummer: 90
   plz: 9799
   ort: lkjadflj
   telefon: 70972879
   handy: 79879698698
-  geb: 11.11.1111
+  geb: 1111-11-11
   email: fabian.sperrle@gmail.com
-  email2: fabian.sperrle@gmail.com
   veggie: ja
-  gruppe:
   sonstiges: |
     lkjadf
     af
@@ -349,8 +348,7 @@ Teilnehmer:
     w4tiqwe9f
     asugha
     srofi pifuj
-  status: liste
-  typ: t
+  gruppe:
 - 
   vorname: test
   nachname: test
@@ -748,7 +746,7 @@ Teilnehmer:
 
 Beschreibung: 
 
-Du bist im Winter gerne draußen im Schnee? Du bist begeisterter Ski-oder Snowboardfahrer oder wolltest es schon immer einmal ausprobieren? Du hast deine Winterferien noch nicht verplant? Du bekommst Fernweh bei solchen Bildern? 
+Du bist im Winter gerne draußen im Schnee? Du bist begeisterter Ski-oder Snowboardfahrer oder wolltest es schon immer einmal ausprobieren? Du hast deine Winterferien noch nicht verplant? Du bekommst Fernweh bei solchen Bildern?
 
 Dann komm doch mit auf unser Winterlager! Wir werden gemeinsam 8 Tage auf einer (link: http://www.ferienhaeuser-muglin.ch/5901/index.html text: Selbstversorgerhütte) im Schweizer Tschierv verbringen – ein Bergdorf mit engen verschneiten Gassen und dem typischen Engadiner Charme. Tief im Val Müstair wirst du wundervolle Wintertage mit einer Gruppe von 50 Jugendlichen erleben!
 

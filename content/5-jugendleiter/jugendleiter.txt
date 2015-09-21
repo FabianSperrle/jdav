@@ -5,13 +5,205 @@ Title: Jugendleiter
 Jugendleiter: 
 
 - 
-  name: fabian
-  gruppe: Kletteräffchen
-  funktion: Webdesign
+  name: alexander-bock
+  gruppe: Die Almdudler
+  funktion:
 - 
-  name: maxi
-  gruppe: Kletterviren
+  name: alexander-schwoy
+  gruppe: nEVEREST
+  funktion:
+- 
+  name: anja-frick
+  gruppe:
+  funktion:
+- 
+  name: anna-merkler
+  gruppe: Bergzwerge
+  funktion:
+- 
+  name: anna-lisa-dittrich
+  gruppe: Abseiler
+  funktion:
+- 
+  name: annkatrin-baechle
+  gruppe: Alpensalamander
+  funktion:
+- 
+  name: arne-aerts
+  gruppe: Yetis
   funktion: Jugendreferent
+- 
+  name: bart-van-essen
+  gruppe: Yetis
+  funktion:
+- 
+  name: benjamin-erdmann
+  gruppe:
+  funktion:
+- 
+  name: constantin-gleichauf
+  gruppe:
+  funktion:
+- 
+  name: corinna-feederle
+  gruppe:
+  funktion:
+- 
+  name: david-sperber
+  gruppe:
+  funktion:
+- 
+  name: fabian-wagner
+  gruppe: Alpensalamander
+  funktion:
+- 
+  name: franziska-roeger
+  gruppe: Kletteräffchen
+  funktion:
+- 
+  name: geronimo-frick
+  gruppe: Klettergeckos
+  funktion:
+- 
+  name: hanna-hauss
+  gruppe: Klettergeckos
+  funktion:
+- 
+  name: helge-linnert
+  gruppe: Die kleinen Steinböcke
+  funktion:
+- 
+  name: jacob-heinemann
+  gruppe: Bergzwerge
+  funktion:
+- 
+  name: jens-lindemann
+  gruppe: Yetis
+  funktion:
+- 
+  name: jo-koehler
+  gruppe: Jugend 3
+  funktion:
+- 
+  name: joachim-huebner
+  gruppe:
+  funktion:
+- 
+  name: johannes-ziegler
+  gruppe: nEVEREST
+  funktion:
+- 
+  name: judith-lamberty
+  gruppe:
+  funktion:
+- 
+  name: julia-boeckmann
+  gruppe: Die kleinen Steinböcke
+  funktion:
+- 
+  name: katharina-eder
+  gruppe: Die Almdudler
+  funktion:
+- 
+  name: klara-schoeneberger
+  gruppe: Die Almdudler
+  funktion:
+- 
+  name: krystian-podworny
+  gruppe: Die kleinen Steinböcke
+  funktion:
+- 
+  name: larissa-muenzner
+  gruppe: Abseiler
+  funktion:
+- 
+  name: leonie-lindlar
+  gruppe:
+  funktion:
+- 
+  name: leonie-prox
+  gruppe: Abseiler
+  funktion:
+- 
+  name: lisa-genseleiter
+  gruppe: Alpensalamander
+  funktion:
+- 
+  name: lorenz-heublein
+  gruppe: JuMa
+  funktion:
+- 
+  name: lukas-lenz
+  gruppe: Klettergeckos
+  funktion:
+- 
+  name: marius-doerfer
+  gruppe: Kletteräffchen
+  funktion:
+- 
+  name: maximilian-dinkel
+  gruppe: Die Almdudler
+  funktion:
+- 
+  name: melanie-hog
+  gruppe: Bergzwerge
+  funktion:
+- 
+  name: melissa-lenhardt
+  gruppe:
+  funktion:
+- 
+  name: milan-jubitz
+  gruppe: Alpensalamander
+  funktion:
+- 
+  name: nicole-dippong
+  gruppe: Faultiere
+  funktion:
+- 
+  name: niklas-rheinheimer
+  gruppe: Die kleinen Steinböcke
+  funktion:
+- 
+  name: niko-jonasson
+  gruppe:
+  funktion:
+- 
+  name: paul-emonts-pohl
+  gruppe: Faultiere
+  funktion:
+- 
+  name: paul-holzschuh
+  gruppe: Die Almdudler
+  funktion:
+- 
+  name: raffael-lutz
+  gruppe: Bergzwerge
+  funktion:
+- 
+  name: sarah-muenzner
+  gruppe: Abseiler
+  funktion:
+- 
+  name: sophia-werner
+  gruppe:
+  funktion:
+- 
+  name: stefan-feickert
+  gruppe: JuMa
+  funktion:
+- 
+  name: stefanus-stahl
+  gruppe:
+  funktion:
+- 
+  name: theresa-angl
+  gruppe: Die kleinen Steinböcke
+  funktion:
+- 
+  name: tobias-biehl
+  gruppe: Abseiler
+  funktion:
 
 ----
 
