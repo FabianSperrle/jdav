@@ -34,13 +34,3 @@ fields:
       konstanz: Konstanz
       singen: Singen
     required: true
-  jugendleiter:
-    label: Jugendleiter
-    type: structure
-    entry: >
-      {{name}}<br />
-    fields:
-      name:
-        label: Username
-        type: userrole
-        role: jugendleiter

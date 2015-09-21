@@ -9,6 +9,7 @@ fields:
   jugendleiter:
     label: Jugendleiter
     type: structure
+    width: 1/2
     entry: >
       Username: {{name}}<br />
       Gruppe: {{gruppe}}
@@ -22,9 +23,9 @@ fields:
         options: query
         query: 
           page: jugendgruppen
-          fetch: visibleChildren
-          value: '{{name}}'
-          text: '{{name}}'
+          fetch: children
+          value: '{{title}}'
+          text: '{{title}}'
       funktion:
         label: Funktion
         type: text

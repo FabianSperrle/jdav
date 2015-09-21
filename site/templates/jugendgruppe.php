@@ -19,14 +19,21 @@
             <div class="small-12 columns">
                 <h3>Jugendleiter</h3>
                 <ul class="small-block-grid-2 medium-block-grid-3">
-                    <?php foreach (yaml($page->jugendleiter()) as $jugendleiter): ?>
+                    <?php foreach ($site->users()->filterBy('role', 'jugendleiter')->filter(function ($user) use ($page) {
+                        $juleis = page('jugendleiter')->jugendleiter()->yaml();
+                        $julei = null;
+                        foreach ($juleis as $julei) {
+                            if ($julei['name'] == $user->username()) break;
+                        }
+                        return strtolower($page->title()) == strtolower($julei['gruppe']);
+                    }) as $jugendleiter): ?>
                         <li>
-                            <?php if ($img = $site->user($jugendleiter['name'])->avatar()): ?>
+                            <?php if ($img = $jugendleiter->avatar()): ?>
                                 <img src="<?= $img->url() ?>">
                             <?php else: ?>
                                 <img src="<?= $site->url() ?>/assets/avatars/default.jpg"/>
                             <?php endif; ?>
-                            <p><?= $site->user($jugendleiter['name'])->firstName() ?> <?= $site->user($jugendleiter['name'])->lastName() ?></p>
+                            <p><?= $jugendleiter->firstName() ?> <?= $jugendleiter->lastName() ?></p>
                         </li>
                     <?php endforeach; ?>
                 </ul>
