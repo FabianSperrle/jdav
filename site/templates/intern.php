@@ -10,9 +10,11 @@
             der Website oder an den Infos über deine Jugendgruppe vornehmen möchtest, melde dich bitte im <a
                 href="<?= $site->url() ?>/panel">Panel</a> an.
 
-            <h3>Dokumente</h3>
             Hier könnt ihr nun alle wichtigen Dokumente für Planung, Abrechnung, etc... herunterladen. Falls ihr Fehler
             endeckt, oder euch etwas fehlt, meldet euch bitte bei Arne.
+<?php $types = array('Hilfestellung', 'Abrechnung', 'Lagerdinge', 'Verschiedenes'); 
+foreach ($types as $type) : ?>
+        <h3><?= $type ?></h3>
             <table width="100%">
                 <thead>
                 <tr>
@@ -22,7 +24,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($page->children()->visible()->filterBy('template', 'dokument')->sortBy('title', 'ASC') as $document): ?>
+                <?php foreach ($page->children()->visible()->filterBy('template', strtolower($type))->sortBy('title', 'ASC') as $document): ?>
                     <?php
                     $doc = $document->documents()->filter(function ($f) {
                         return str::contains($f->extension(), 'doc') or str::contains($f->extension(), 'xls');
@@ -50,6 +52,7 @@
                 </tr>
                 </tbody>
             </table>
+<?php endforeach; ?>
 
             <h3>Protokolle</h3>
             <table width="100%">

@@ -4,8 +4,11 @@ title: Interner Bereich
 files: false
 pages:
   template:
-    - dokument
     - protokoll
+    - abrechnung
+    - hilfestellungen
+    - lagerdinge
+    - verschiedenes
 fields:
   title:
     label: Titel
